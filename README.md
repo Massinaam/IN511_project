@@ -5,7 +5,7 @@
 > - Romain VILLA
 
 # Introduction
-La classification par partitionnement est une méthode de classification utilisée pour classer les observations, au sein d'un ensemble de données, en plusieurs groupes en fonction de leurs similitudes. Les algorithmes demandent à l'utilisateur de spécifier le nombre de clusters à générer.
+La classification par partitionnement est une méthode de classification utilisée pour classer les observations, au sein d'un ensemble de données, en plusieurs groupes en fonction de leurs similitudes.
 Pour ce faire, plusieurs algorithmes existent, notamment :
 - La méthode des _k-means_ dans laquelle chaque cluster est représentée par le centre ou la moyenne des points de données appartenant au cluster. 
 - La méthode des _k-médoïdes_ dans laquelle chaque cluster est représenté par l'un des objets (déjà existant) du cluster. PAM est un algorithme basé sur cette méthode.
@@ -15,9 +15,10 @@ Pour chacune de ces méthodes, nous proposerons :
 - l'algorithme de clustering et son implémentation
 - la complexité de l'algorithme
 Enfin nous comparerons les 2 méthodes.
+
 Les algorithmes seront implémentés de la façon suivante :
-      Langage c pour _k-means_ ;
-      Langage R pour PAM.
+- Langage c pour _k-means_ ;
+- Langage R pour PAM.
 # _k-means_
 L'algorithme k-means est un algorithme qui se base sur les moyennes. Étant donnés des points et un entier k, le problème est de diviser les points en k groupes, souvent appelés clusters, de façon à minimiser une certaine fonction. On considère la distance d'un point à la moyenne des points de son cluster ; la fonction à minimiser est la somme des carrés de ces distances.
 
