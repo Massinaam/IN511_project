@@ -21,7 +21,7 @@ Les algorithmes seront implémentés de la façon suivante :
     
 
 
-// L’algorithme PAM est une alternative à l’algorithme des K-means. En entrée on a K un nombre de clusters qui seront retournés par l’algorithme, et D un data set de N objets. En sortie, on obtient K clusters. L’idée de l’algorithme est de construire les clusters autour d’objets représentatifs. Chaque cluster est associé à un objet qui le représente. Noter immédiatement qu’un objet représentatif est un objet de l’ensemble D, alors que le barycentre dans les K-means n’est pas nécessairement dans la population. L’algorithme PAM procède comme suit
+[] L’algorithme PAM est une alternative à l’algorithme des K-means. En entrée on a K un nombre de clusters qui seront retournés par l’algorithme, et D un data set de N objets. En sortie, on obtient K clusters. L’idée de l’algorithme est de construire les clusters autour d’objets représentatifs. Chaque cluster est associé à un objet qui le représente. Noter immédiatement qu’un objet représentatif est un objet de l’ensemble D, alors que le barycentre dans les K-means n’est pas nécessairement dans la population. L’algorithme PAM procède comme suit
 La classification des objets, en clusters, nécessite des méthodes pour mesurer la distance ou la (dis)similarité entre les objets. 
 
 ## Algorithme PAM
