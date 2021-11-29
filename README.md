@@ -5,7 +5,7 @@
 > - Romain VILLA
 
 # Introduction
-La classification par partitionnement est une méthode de classification utilisée pour classer les observations, au sein d'un ensemble de données, en plusieurs groupes en fonction de leur similitude. Les algorithmes demandent à l'utilisateur de spécifier le nombre de clusters à générer.
+La classification par partitionnement est une méthode de classification utilisée pour classer les observations, au sein d'un ensemble de données, en plusieurs groupes en fonction de leurs similitudes. Les algorithmes demandent à l'utilisateur de spécifier le nombre de clusters à générer.
 Pour ce faire, plusieurs algorithmes existent, notamment :
 - La méthode des _k-means_ dans laquelle chaque cluster est représentée par le centre ou la moyenne des points de données appartenant au cluster. Cette méthode est cependant sensible au _outliers_ (valeurs aberrantes).
 - La méthode des _k-médoïdes_ dans laquelle chaque cluster est représenté par l'un des objets (déjà existant) du cluster. Ainsi, PAM, basé sur la méthode des _k-médoïdes_, est un algorithme moins sensible au données "anormales".
