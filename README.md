@@ -22,6 +22,8 @@ Les algorithmes seront implémentés de la façon suivante :
 - Langage R pour _k-means_.
 
 
+$\sum_{n=1}^{10} n^2$
+
 # Algorithme PAM
 ## Algorithme et son implémentation en langage C
 L'algorithme PAM est basé sur la recherche de k objets (médoïdes) représentatifs parmi les observations de l'ensemble de données. Le but est de trouver k objets représentatifs qui minimisent la somme des dissemblances des observations à leur objet représentatif le plus proche.
